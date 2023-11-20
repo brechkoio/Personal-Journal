@@ -1,4 +1,4 @@
-import './JournalItem.css';
+import './Journal-Item.css';
 
 const JournalItem = ({ title, date, text }) => {
   const formatedDate = new Intl.DateTimeFormat('ua-UA').format(date);
