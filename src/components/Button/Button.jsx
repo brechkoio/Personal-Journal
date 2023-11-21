@@ -1,15 +1,7 @@
 import './Button.css';
 
-const Button = ({ children }) => {
-  const clicked = () => {
-    console.log('Hello');
-  };
-
-  return (
-    <button className='button accent' onClick={clicked}>
-      {children}
-    </button>
-  );
+const Button = ({ text }) => {
+  return <button className='button accent'>{text}</button>;
 };
 
 export default Button;
